@@ -13,10 +13,10 @@ Jarvis is a personal AI assistant built using Python. This project integrates va
 - **Battery Monitoring**: Get battery percentage on demand.
 - **Random Advice**: Jarvis can offer random suggestions or advice.
 
-# Create an env file with these variables
-DATASET_PATH
-GOOGLE_API_KEY
-GOOGLE_CSE_ID
+## Setup
 
+Before running the project, create an `.env` file in the root directory of your project and add the following environment variables:
 
-
+- `DATASET_PATH`: Path to your dataset file.
+- `GOOGLE_API_KEY`: Your Google API key for making API requests.
+- `GOOGLE_CSE_ID`: Your Google Custom Search Engine ID.
